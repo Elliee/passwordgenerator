@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111827;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  background-color: #1F2937;
+  height: 100vh;
+  border-radius: 5px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 260px;
+  }
+}
+
+
+
+hr {
+  width: 75%;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+h1 {
+  padding-top: 50px;
+}
+
+.btn-wrapper, .pw-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+
+
+#btn, #copy-pw {
+  width: 200px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #34D399;
+  color: white;
+}
+#btn:hover,#copy-pw:hover {
+  background-color: #10B981;
+  cursor: pointer;
+}
+
+
+#password {
+  text-align: center;
+  padding: 5px;
+  color: #6B7280;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
